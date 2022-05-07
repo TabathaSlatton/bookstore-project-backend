@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+read = Shelf.create(name: "Read");
+wantToRead = Shelf.create(name: "Want to read");
+dnf = Shelf.create(name: "Did not finish");
